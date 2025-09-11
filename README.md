@@ -1,4 +1,4 @@
-# 🖼️ Edge Detection Benchmark (CPU vs CUDA GPU)
+# Edge Detection Benchmark (CPU vs CUDA GPU)
 
 This project benchmarks **CPU vs GPU (CUDA)** performance on classic image-processing filters using **PyTorch**:
 
