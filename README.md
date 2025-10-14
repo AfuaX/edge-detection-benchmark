@@ -1,6 +1,6 @@
-# Edge Detection Benchmark (CPU vs CUDA GPU)
+# Edge Detection Benchmark (CPU vs GPU)
 
-This project benchmarks **CPU vs GPU (CUDA)** performance on classic image-processing filters using **PyTorch**:
+This project benchmarks **CPU vs GPU** performance on classic image-processing filters using **PyTorch**:
 
 - Convert to **grayscale**
 - Apply **Gaussian blur**
@@ -12,21 +12,20 @@ It includes both:
 
 ---
 
-## 🚀 Features
+## Features
 - Process single or multiple images
-- Automatic handling of CPU vs **CUDA GPU** (with fallback if no GPU available)
+- Automatic handling of CPU vs GPU (with fallback if no GPU available)
 - Batch scaling experiments with timing plots
 - Streamlit web app for drag-and-drop usage
 - Saves results (`.png`, `.csv`)
 
 ---
 
-## 📦 Setup
+## Setup
 
 ### 1. Clone this repository
 ```bash
 git clone https://github.com/AfuaX/edge-detection-benchmark.git
-cd edge-detection-benchmark
 ```
 
 ### 2. Create a virtual environment
@@ -51,14 +50,14 @@ pip install -r requirements.txt
 
 ---
 
-## ▶️ Usage
+## Usage
 
 ### Run the Streamlit app
 ```bash
 streamlit run app.py
 ```
 Open [http://localhost:8501](http://localhost:8501) in your browser.  
-Upload images and compare CPU vs **CUDA GPU** results interactively.
+Upload images and compare CPU vs GPU results interactively.
 
 ### Run the benchmark script
 ```bash
@@ -71,7 +70,7 @@ This will:
 
 ---
 
-## 📊 Example Outputs
+## Example Outputs
 
 ### CPU Pipeline
 | Original | CPU Edges |
@@ -98,19 +97,19 @@ See [requirements.txt](requirements.txt) for the full list.
 
 ---
 
-## 🧠 Key Insights
+## Key Insights
 - GPU acceleration with **CUDA** provides massive speedups on large image batches  
 - CPU fallback ensures the pipeline runs on any machine  
 
 ---
 
-## 📜 License
+## License
 MIT License.  
-Feel free to fork, modify, and experiment 🚀
+Feel free to fork, modify, and experiment
 
 ---
 
-## 🙌 Acknowledgements
+## Acknowledgements
 - [PyTorch](https://pytorch.org)
 - [Streamlit](https://streamlit.io)
 - [CUDA Toolkit](https://developer.nvidia.com/cuda-toolkit)
